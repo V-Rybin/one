@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'BIZUDPMincho-Bold';
+    url('../fonts/BIZUDPMincho-Bold.ttf') format('truetype'),
+    font-weight: bold;
+    font-style: normal;
+    }
+
+h1 {font-size: 30px;
+    color: gray;
+}
+
+h2 {
+    border-left: 5px solid #0077ff;
+    padding-left: 10px;
+    color: gray;
+    margin-top: 30px;
+    font-family: 'Vollkorn', serif;
+  }
+
+p {
+    font: 17px Arial;
+}
+
+li {
+    font: 17px Arial;
+}
+
+.navi_1 {background-color: #0077ff;
+color: white;
+padding: 20px 25px 20px 25px;
+font-size: 20px;
+text-align: center;
+}
+
+.menu-item-1 {padding: 20px 25px 20px 25px;
+color: white;
+text-decoration:none
+}
+
+.menu-item-1:hover {
+    background: white;
+    color: black;
+}
+
+.flex-container {
+    display: flex; /* flex || inline-flex */
+  }
+
+.inner_container_1 {
+    margin: 20px;
+}
+
+.inner_container_2 {
+    margin: 40px;
+}
+
+.section_1 
+    {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+      }
+
+.footer_1 {
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    }
+
+.link {color:#0077ff;}
+
+.contacts {
+    display: flex;
+    align-items: center;
+  }
